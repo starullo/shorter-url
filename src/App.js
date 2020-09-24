@@ -4,6 +4,8 @@ import Hero from './components/pages/Hero.jsx';
 import Short from './components/pages/Short.jsx';
 import Body from './components/pages/Body.jsx';
 import Footer from './components/pages/Footer.jsx';
+import BodyBottom from './components/pages/BodyBottom.jsx';
+
 
 
 const App = () => {
@@ -13,6 +15,7 @@ const App = () => {
       <Hero />
       <Short />
       <Body />
+      <BodyBottom />
       <Footer />
     </div>
   )
