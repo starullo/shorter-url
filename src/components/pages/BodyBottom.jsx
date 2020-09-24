@@ -2,6 +2,7 @@ import React from 'react'
 
 const BodyBottom = () => {
     return (
+        <>
         <div>
         <h3>
           Brand recognition
@@ -35,6 +36,7 @@ const BodyBottom = () => {
       
         <button>Get Started</button>
         </div>
+        </>
     )
 }
 
