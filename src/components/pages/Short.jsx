@@ -9,6 +9,7 @@ const Short = () => {
 
     return (
         <div>
+            <form onSubmit={handleSubmit(onSub)}>
             <input 
             type='text' 
             name='urlShort' 
@@ -22,6 +23,7 @@ const Short = () => {
             })}/>
             {errors.urlShort && errors.urlShort.message}
             <button type='submit'>Shorten It!</button>
+            </form>
         </div>
     )
 }
